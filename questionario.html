@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Cultura Oceânica</title>
+        <link rel="stylesheet" href="estilo.css">    
+    </head>
+    <body>
+        <h1>APA Costa das Algas</h1>
+        <div id= "Menu">
+            <a href="index.html"><div class= "div2"> Início </div></a>
+            <a href="fauna.html"><div class= "div2"> Fauna </div></a>
+            <a href="flora.html"><div class= "div2"> Flora </div></a>
+            <a href="questionario.html"><div class= "div2"> Questionário </div></a>
+        </div>
+        <p>  A presente pesquisa tem como objetivo analisar a importância da Área de Proteção Ambiental<br>
+        (APA) no contexto da conservação das algas marinhas presentes nas costas litorâneas. As algas<br>
+        desempenham um papel fundamental nos ecossistemas marinhos, contribuindo para a<br>
+        manutenção da biodiversidade, a estabilização do solo marinho e a produção de oxigênio.<br>
+        Entretanto, essas espécies enfrentam diversas ameaças decorrentes da ação humana e das<br>
+        mudanças ambientais, o que reforça a necessidade de áreas protegidas que garantam a<br>
+        preservação desses organismos. Por meio deste estudo, pretende-se compreender os impactos<br>
+        ambientais e sociais na APA e identificar estratégias eficazes para a proteção e uso sustentável<br>
+        das algas marinhas, contribuindo para a conservação dos ecossistemas costeiros e para o<br>
+        desenvolvimento sustentável da região. </p>
+      <form action = "#" method="post">
+      <label For= "Nomecompleto"> Nome completo: </label>
+      <input type= "Nomecompleto" id= "Nomecompleto" name= "Nomecompleto" required>
+      <br><br>
+      <label For = "email"> E-mail: </label>
+      <input type="email" id="email" name="email" required>
+       <br><br>
+      <label For = "idade"> Idade: </label>
+      <input type= "number" min="05" max="125" id="Idade" name="Idade" required>
+      <br><br>
+      <label For = "Datadenascimento"> Data de nascimento: </label>
+      <input type= "date" min="1901.02.02" max="2025.11.30" id= "date" name="date" required>
+      <br><br>
+      <label For = "opcoes" > Estados onde reside</label>
+      <select id= "opcoes" name="opcoes" required>
+            <option value= "opcao 1"> Acre (AC)</option>
+            <option value= "opcao 1"> Alagoas (AL)</option>
+            <option value= "opcao 1"> Amapá (AP)</option>
+            <option value= "opcao 1"> Amazonas (AM)</option>
+            <option value= "opcao 1"> Bahia (BA)</option>
+            <option value= "opcao 1"> Ceará (CE)</option>
+            <option value= "opcao 1"> Espírito Santo (ES)</option>
+            <option value= "opcao 1"> Goiás (GO)</option>
+            <option value= "opcao 1"> Maranhão (MA)</option>
+            <option value= "opcao 1"> Mato Grosso (MT)</option>
+            <option value= "opcao 1"> Mato Grosso do Sul (MS)</option>
+            <option value= "opcao 1"> Minas Gerais (MG)</option>
+            <option value= "opcao 1"> Pará (PA))</option>
+            <option value= "opcao 1"> Paraíba (PB)</option>
+            <option value= "opcao 1"> Paraná (PR)</option>
+            <option value= "opcao 1"> Pernambuco(PE)</option>
+            <option value= "opcao 1"> Piauí (PI)</option>
+            <option value= "opcao 1"> Rio de Janeiro (RJ)</option>
+            <option value= "opcao 1"> Rio Grande do Norte (RN)</option>
+            <option value= "opcao 1"> Rio Grande do Sul (RS)</option>
+            <option value= "opcao 1"> Rondônia (RO)</option>
+            <option value= "opcao 1"> Roraima (RR)</option>
+            <option value= "opcao 1"> Santa Catarina(SC)</option>
+            <option value= "opcao 1"> São Paulo (SP)</option>
+            <option value= "opcao 1"> Sergipe (SE)</option>
+            <option value= "opcao 1"> Tocantins (TO)</option>
+            <option value= "opcao 1"> Distrito Federal (DF)</option>
+        </select>
+        <br><br>
+        <label For= "pergunta">Você já ouviu falar sobre Cultura Oceânica? </label>
+            <label For = "Sim"></label>
+            <input id= "Sim" type= "radio" name= "sim-não"> <label> Sim </label>
+            <label For = "Não"></label>
+            <input id= "Não" type= "radio" name= "sim-não"> <label> Não </label>
+            <br><br>
+            <label For="pergunta">Qual sua relação com o mar? </label>
+            <br><br>
+            <textarea rows="5" cols="50" required></textarea>
+            <br><br>
+            <label For = "pergunta">Quais dessas ações você já praticou?</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao1" value="Reutilizei plásticos e embalagens para reduzir o lixo">
+            <label For= "caixa"> Reutilizei plásticos e embalagens para reduzir o lixo.</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao2" value="Evitei descartar lixo em praias,rios ou mares">
+            <label For= "caixa"> Evitei descartar lixo em praias,rios ou mares.</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao3" value="Usei sacolas reutilizáveis ao fazer compras">
+            <label For= "caixa"> Usei sacolas reutilizáveis ao fazer compras.</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao4" value="Participei de campanhas de consientização sobre a vida marinha">
+            <label For= "caixa"> Participei de campanhas de consientização sobre a vida marinha.</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao5" value="Optei por meios de transporte menos poluentes">
+            <label For= "caixa">Optei por meios de transporte menos poluentes.</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao6" value="Economizei água no dia a dia">
+            <label For= "caixa"> Economizei água no dia a dia.</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao7" value="Compartilhei informações sobre a proteção dos oceanos nas redes sociais">
+            <label For= "caixa"> Compartilhei informações sobre a proteção dos oceanos nas redes sociais.</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao8" value="Denunciei ou evitei práticas prejudiciais ao meio ambiente marinho">
+            <label For= "caixa"> Denunciei ou evitei práticas prejudiciais ao meio ambiente marinho.</label>
+            <br><br>
+            <input type= "checkbox" id="caixa" name= "opcao9" value="Apoiei projetos ou ONGs ligadas á conservação marinha.">
+            <label For= "caixa"> Apoiei projetos ou ONGs ligadas á conservação marinha.</label>
+            <br><br>
+            <label for="perguntaopicional"> Envie uma sugestão de iniciativa oceânica.</label>
+            <br><br>
+            <textarea rows="5" cols="50"></textarea>
+            <br><br>
+        <button type= "submit">Enviar</button>
+        <button type= "reset">Deletar</button>
+        </form>
+  </body>
+</html>
